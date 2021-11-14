@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/imgsignup"
+    tools:context=".LoginActivity">
+    <androidx.appcompat.widget.Toolbar
+        app:title="Login"
+        app:titleTextColor="@color/white"
+        android:id="@+id/toobar_dn"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="Hello,"
+        android:textColor="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="Sign in!"
+        android:textColor="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:textColorHint="#7DC1CA"
+            android:layout_margin="10dp"
+            android:id="@+id/etID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ID"/>
+
+        <EditText
+            android:textColorHint="#7DC1CA"
+            android:layout_margin="10dp"
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:onClick="Login"
+            android:background="@drawable/backgroud3"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join"
+            android:onClick="Join"
+            android:background="@drawable/backgroud3"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"/>
+        <ProgressBar
+            android:id="@+id/progresss"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:ignore="MissingContraints"/>
+    </LinearLayout>
+
+</LinearLayout>

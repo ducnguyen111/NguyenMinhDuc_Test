@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "159611451277",
+    "project_id": "ducd-29009",
+    "storage_bucket": "ducd-29009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159611451277:android:50f0ba9a2857db038fefc4",
+        "android_client_info": {
+          "package_name": "com.devandroid.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159611451277-g2k271pet1jec9f3ffhsggkcj1e9riur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devandroid.test",
+            "certificate_hash": "15ce90b7726e7f5bb43bc8ff03cfd356f9b54bb5"
+          }
+        },
+        {
+          "client_id": "159611451277-vksh08vhinspbuald9d0i32v0vdvt0ef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKj2Fl9qlwsCq4CWYaubqCtdXsiLRb9B0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159611451277-vksh08vhinspbuald9d0i32v0vdvt0ef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
